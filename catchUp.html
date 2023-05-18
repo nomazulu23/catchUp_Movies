@@ -14,18 +14,30 @@
 
 
 <body>
-  <h1>Movie Search</h1>
-  <form id="searchForm">
-    <input type="text" id="searchInput" placeholder="Search movies...">
-    <button type="submit">Search</button>
-  </form>
+  <header>
+    <h1>CatchUp Movies</h1>
+    <br>
+      <form id="searchForm">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button type="submit">Search</button>
+    </form>
+  </header>
   
-  <h1>Movie List</h1>
-  <div id="movies"></div>
+  <main>
+    <h1>Movie List</h1>
+    <div id="movies"></div>
   
-  <div id="movieDetails"></div>
-</body>
+    <div id="movieDetails"></div>
+  </main>
+
+  <footer> 
+    <p>&copy;<span id="year"></span> .:|:. Heather Jasi .:|:. Lublin 
+    <br>
+    <span id="date"></span> </p>
+  </footer>
 
   <script src="catchUp.js"></script>
+  <script src="date.js"></script>
 
+</body>
 </html>

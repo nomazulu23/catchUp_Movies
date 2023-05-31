@@ -1,4 +1,4 @@
-const apiKey = '853b19f1916650afe0cb18602242a747'; // Replace with your TMDb API key
+const apiKey = '853b19f1916650afe0cb18602242a747'; 
 const apiUrl = 'https://api.themoviedb.org/3';
 
 // Function to fetch and display movies

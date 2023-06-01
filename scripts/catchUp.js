@@ -1,5 +1,4 @@
 // import { getLocalStorage, setLocalStorage } from "./util.mjs";
-
 const apiKey = '853b19f1916650afe0cb18602242a747'; 
 const apiUrl = 'https://api.themoviedb.org/3';
 

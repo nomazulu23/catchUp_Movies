@@ -1,0 +1,95 @@
+@media (max-width: 767px) {
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #D88373; 
+    padding: 0;
+    margin: 0;
+}
+      
+h1, h2, h3{
+    font-family: 'Righteous', cursive;
+    color:#17255A;
+}
+      
+p{
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 15px ;
+    color:#17255A;
+}
+      
+header {
+    background-color: #F5E2C8;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px #18206f, -5px -5px 5px #18206f; 
+}
+
+#searchForm button {
+    background-color: #BD1E1E;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#searchInput {
+    padding: 10px;
+    border: 1px solid #BD1E1E;
+}
+    
+#movies {
+    background: linear-gradient(90deg,#D88373 0%, #F5E2C8 100%, #BD1E1E 100%);
+    box-shadow: 5px 5px 5px #18206f, -5px -5px 5px #18206f; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto; 
+    grid-gap: 15px; 
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+} 
+        
+.movie {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+        
+img {
+    width: 250px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+
+button {
+    background-color: #BD1E1E;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+      
+footer {
+    background-color: #F5E2C8;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px #18206f, -5px -5px 5px #18206f;
+}
+
+}

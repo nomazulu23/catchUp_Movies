@@ -1,3 +1,5 @@
+// import { getLocalStorage, setLocalStorage } from "./util.mjs";
+
 const apiKey = '853b19f1916650afe0cb18602242a747'; 
 const apiUrl = 'https://api.themoviedb.org/3';
 
@@ -25,7 +27,7 @@ async function fetchMovies(searchQuery = '') {
     const movieElement = document.createElement('div');
     movieElement.innerHTML = `
       <h2>${movie.title}</h2>
-      <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" alt="${movie.title}">
+      <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" alt="${movie.title}" >
       <p>${movie.overview}</p>
       <button onclick="showMovieDetails(${movie.id})">Details</button>
       <button onclick="playTrailer(${movie.id})">Play Trailer</button>
